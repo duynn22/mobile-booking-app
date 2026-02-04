@@ -7,16 +7,6 @@
 - NodeJS + Express (Backend)
 - MongoDB
 
-## Run Backend
-cd backend
-npm install
-npm start
-
-## Run Mobile
-cd mobile
-flutter pub get
-flutter run
-
 ## General rule
 1️⃣ Branch rule
 - ❌ Không commit trực tiếp vào main
@@ -27,3 +17,40 @@ flutter run
 - backend/  → NodeJS + Express
 - mobile/   → Flutter
 - docs/     → UML, báo cáo
+
+## Structure
+- lib/
+- ├── main.dart
+- ├── app.dart
+- ├── routes/
+- │   └── app_routes.dart
+- ├── screens/
+- │   ├── auth/
+- │   │   ├── login_screen.dart
+- │   │   └── register_screen.dart
+- │   ├── home/
+- │   │   └── home_screen.dart
+- │   ├── booking/
+- │   │   ├── booking_screen.dart
+- │   │   └── booking_detail_screen.dart
+- │   ├── profile/
+- │   │   └── profile_screen.dart
+- │   └── admin/
+- │       └── admin_dashboard.dart
+- ├── models/
+- ├── services/
+- │   ├── api_service.dart
+- │   └── auth_service.dart
+- └── utils/
+
+## Run Backend
+cd backend
+npm install
+npm start
+
+## Run Mobile
+cd mobile
+flutter pub get
+flutter run
+
+
