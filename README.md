@@ -19,29 +19,29 @@
 - docs/     → UML, báo cáo
 
 ## Structure
-lib/
-├── main.dart
-├── app.dart
-├── routes/
-│   └── app_routes.dart
-├── screens/
-│   ├── auth/
-│   │   ├── login_screen.dart
-│   │   └── register_screen.dart
-│   ├── home/
-│   │   └── home_screen.dart
-│   ├── booking/
-│   │   ├── booking_screen.dart
-│   │   └── booking_detail_screen.dart
-│   ├── profile/
-│   │   └── profile_screen.dart
-│   └── admin/
-│       └── admin_dashboard.dart
-├── models/
-├── services/
-│   ├── api_service.dart
-│   └── auth_service.dart
-└── utils/
+- lib/
+- ├── main.dart
+- ├── app.dart
+- ├── routes/
+- │   └── app_routes.dart
+- ├── screens/
+- │   ├── auth/
+- │   │   ├── login_screen.dart
+- │   │   └── register_screen.dart
+- │   ├── home/
+- │   │   └── home_screen.dart
+- │   ├── booking/
+- │   │   ├── booking_screen.dart
+- │   │   └── booking_detail_screen.dart
+- │   ├── profile/
+- │   │   └── profile_screen.dart
+- │   └── admin/
+- │       └── admin_dashboard.dart
+- ├── models/
+- ├── services/
+- │   ├── api_service.dart
+- │   └── auth_service.dart
+- └── utils/
 
 ## Run Backend
 cd backend
