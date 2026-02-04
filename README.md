@@ -17,7 +17,7 @@ cd mobile
 flutter pub get
 flutter run
 
-
+## General rule
 1️⃣ Branch rule
 
 ❌ Không commit trực tiếp vào main
