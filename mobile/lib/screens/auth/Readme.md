@@ -1,4 +1,4 @@
-# Authentication Screens #1
+# Authentication Screens #2
 
 This folder contains all authentication-related screens for the Medical Appointment Booking mobile app.
 
